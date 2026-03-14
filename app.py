@@ -7,8 +7,8 @@ import joblib
 # Load Model and Scaler
 # -----------------------------
 
-model = joblib.load("alzheimers_model_10.pkl")
-scaler = joblib.load("scaler_10.pkl")
+model = joblib.load("alzheimers_model.pkl")
+scaler = joblib.load("scaler.pkl")
 
 # -----------------------------
 # Feature List
